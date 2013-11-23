@@ -4,15 +4,15 @@ module.exports.routes = {
     action: 'index'
   },
   '/signup' : {
-    controller: 'main'
+    controller: 'main',
     action: 'signup'
   },
   '/login' : {
-    controller: 'main'
+    controller: 'main',
     action: 'login'
   },
-  '/chat': {
-    controller: 'main'
+  '/chat' : {
+    controller: 'main',
     action: 'chat'
   }
 };
