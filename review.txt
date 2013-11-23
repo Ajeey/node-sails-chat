@@ -27,3 +27,17 @@
 -> Next, wrote the logic for the signup and login in the controller.
 
 -> Point to be noted : The password is being hashed using the "password-hash" module
+
+-> Wrote the logic for the chat in the chat action.
+
+-> Discovered the way to pass data to views from controller. The data is passed when the view is rendered. In comparion with Rails, all the data is available in the instance variable.
+
+-> Wrote the backbone code for the chat feature.
+
+-> Created message policies to reduce the control on the client side so that no one will be able to modify the js
+
+-> Policies are middleware which run before the actual web request.
+
+-> Get back the app to a clean state by using rm -r .tmp in the terminal.
+
+-> Found an error, the fix was to use findOneByUsername rather than findByUsername
