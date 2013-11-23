@@ -11,3 +11,7 @@
 -> Opened up the models and added the attributes respectively.
 
 -> Created the required actions in the Main Controller.
+
+-> When res.view() is called, Sails will look for the file in the following pattern views -> controllerName -> filename.ejs
+
+-> By default the layout.ejs is rendered. We can call specific layouts by using res.view( { layout: "other.ejs" } )
