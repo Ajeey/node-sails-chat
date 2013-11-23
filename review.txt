@@ -3,3 +3,11 @@
 -> Created a remote master branch
 
 -> Researched about Sails framework and understood that it is like what rails is to ruby.
+
+-> Generated the models and controllers. Realized that the generation is similar to Rails.
+
+-> Opened up the route file and added the necessary routes required for the project.
+
+-> Opened up the models and added the attributes respectively.
+
+-> Created the required actions in the Main Controller.
