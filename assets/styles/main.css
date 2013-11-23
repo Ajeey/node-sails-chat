@@ -1,0 +1,22 @@
+body {
+  background-color: #58488a;
+  color: white;
+}
+
+input {
+  border-radius: 2px;
+  height: 20px;
+}
+
+.login {
+  float: left;
+}
+
+.signup {
+  float: right;
+}
+
+textarea {
+  width: 50%;
+  vertical-align: bottom;
+}
