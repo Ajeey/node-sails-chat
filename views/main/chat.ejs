@@ -1,0 +1,31 @@
+<h2>Welcome <%= username %></h2>
+
+<div id="newMessageForm">
+  <textarea id="message" placeholder="Enter your message here:"></textarea>
+  <button id="postMessageButton">Add Message</button>
+</div>
+
+<div id="messagesContainer">
+</div>
+
+<script>
+  
+  var MessageModel = Backbone.Model.extend({
+    urlRoot: '/messages',
+  });
+
+  var MessageCollection = Backbone.Collection.extend({
+    url: '/messages',
+    model: MessageModel,
+  });
+
+  var messages = new MessageCollection();
+  messages.fetch();
+
+  $("#postMessageButton").click(function(){
+    var messageText = $("#message").val();
+    messages.create({message: messageText}, {wait: true});
+    $("#message").val("");
+  });
+
+</script>
