@@ -15,3 +15,15 @@
 -> When res.view() is called, Sails will look for the file in the following pattern views -> controllerName -> filename.ejs
 
 -> By default the layout.ejs is rendered. We can call specific layouts by using res.view( { layout: "other.ejs" } )
+
+-> Next, added the necessary scripts in the layout in the head tag.
+
+-> Created the homepage with basic html syntax with an ID to each input element.
+
+-> Wrote the js code and included it in the end of the file which listens to the click event of the login button and checks if the username and password fields are filled.
+
+-> And posts data to the '/login' routes and redirects as per the condition.
+
+-> Next, wrote the logic for the signup and login in the controller.
+
+-> Point to be noted : The password is being hashed using the "password-hash" module
