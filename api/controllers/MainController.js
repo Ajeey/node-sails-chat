@@ -25,7 +25,7 @@ var MainController = {
     var username = req.param("username");
     var password = req.param("password");
 
-    Users.findByUsername(username).done(function(err, usr){
+    Users.findOneByUsername(username).done(function(err, usr){
       if (err) {
         res.send(500, { error: "DB ERROR" });
       } 
@@ -52,7 +52,7 @@ var MainController = {
     var username = req.param("username");
     var password = req.param("password");
 
-    Users.findByUsername(username).done(function(err, usr){
+    Users.findOneByUsername(username).done(function(err, usr){
       if(err) {
         res.send(500, {error: "DB Error"});
       } else {

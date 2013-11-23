@@ -39,3 +39,5 @@
 -> Policies are middleware which run before the actual web request.
 
 -> Get back the app to a clean state by using rm -r .tmp in the terminal.
+
+-> Found an error, the fix was to use findOneByUsername rather than findByUsername
