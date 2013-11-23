@@ -1,0 +1,5 @@
+-> Created a new repo named node-sails-chat.
+
+-> Created a remote master branch
+
+-> Researched about Sails framework and understood that it is like what rails is to ruby.
