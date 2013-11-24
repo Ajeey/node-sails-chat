@@ -1,13 +1,16 @@
-<h2>Welcome <%= username %></h2>
+<div class="container">
+  <div class="row">
+    <h2>Welcome <%= username %></h2>
 
-<div id="newMessageForm">
-  <textarea id="message" placeholder="Enter your message here:"></textarea>
-  <button id="postMessageButton">Add Message</button>
+    <div id="newMessageForm">
+      <textarea id="message" placeholder="Enter your message here:" rows="4"></textarea><br/>
+      <br/><button id="postMessageButton" class="btn btn-primary btn-lg btn-custom">Add Message</button><br><br><br>
+    </div>
+
+    <div id="messagesContainer">
+    </div>
+  </div>
 </div>
-
-<div id="messagesContainer">
-</div>
-
 <script>
   
   var MessageModel = Backbone.Model.extend({
