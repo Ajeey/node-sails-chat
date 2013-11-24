@@ -40,6 +40,4 @@ $(document).ready(function(){
       alert("A username and password is required");
     }
   }); 
-
-
 });
