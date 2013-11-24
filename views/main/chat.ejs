@@ -74,7 +74,7 @@
       this.collection.on('add', this.render, this);
       this.render();
     },
-    template: _.template("<div><p>{{ message }}</p></div>"),
+    template: _.template("<div><p><b>{{ username }}:</b> {{ message }}</p></div>"),
     render: function () {
       this.$el.html("");
       this.collection.each(function(msg){
