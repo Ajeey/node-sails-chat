@@ -43,3 +43,19 @@
 -> Found an error, the fix was to use findOneByUsername rather than findByUsername
 
 -> One thing to be noted is to call the socket.io.js files in the head section, else the username will not be displayed.
+
+============== My understanding of the given assignment=======================
+
+-> Sails is a framework used to build node js apps. The structure is similar to Ruby on Rails.
+
+-> NPM stands for node package manager
+
+-> Backbone is used to sync the data with the Sails framework
+
+-> Sockets are used for cummunication between client and the server
+
+-> Encountered a few errors during development, but were fixable after reseaching about the error messages.
+
+-> We can change the port number in the locals.js under config dir.
+
+-> Finally, "sails lift" will launch the app in the browser. 
