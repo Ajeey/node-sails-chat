@@ -41,3 +41,5 @@
 -> Get back the app to a clean state by using rm -r .tmp in the terminal.
 
 -> Found an error, the fix was to use findOneByUsername rather than findByUsername
+
+-> One thing to be noted is to call the socket.io.js files in the head section, else the username will not be displayed.
