@@ -5,18 +5,17 @@ body {
 
 input {
   border-radius: 2px;
-  height: 20px;
+  border-color: black;
+  height: 30px;
+  width: 100%;
 }
 
-.login {
-  float: left;
+.btn-custom {
+  width: 100%;
 }
 
-.signup {
-  float: right;
-}
 
 textarea {
-  width: 50%;
+  width: 100%;
   vertical-align: bottom;
 }
