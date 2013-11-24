@@ -8,7 +8,8 @@
         "grunt": "0.4.1",
         "sails-disk": "~0.9.0",
         "ejs": "0.8.4",
-        "optimist": "0.3.4"
+        "optimist": "0.3.4",
+        "password-hash": "*"
     },
     "scripts": {
         "start": "node app.js",
@@ -16,6 +17,6 @@
     },
     "main": "app.js",
     "repository": "",
-    "author": "",
+    "author": "Ajey",
     "license": ""
 }
