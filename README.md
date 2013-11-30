@@ -13,3 +13,7 @@ From terminal-
 -> Run "npm install".
 
 -> Run "sails lift".
+
+
+Live Demo:
+http://node-sails-chat.herokuapp.com/
